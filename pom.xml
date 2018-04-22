@@ -6,7 +6,7 @@
     <groupId>cn.com.qjun</groupId>
     <artifactId>qjun-parent</artifactId>
     <version>1.0.0.RELEASE</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>qjun-parent</name>
     <description>强君Maven父工程</description>
@@ -52,12 +52,12 @@
         <repository>
             <id>nexus</id>
             <name>release</name>
-            <url>http://client.qjun.com.cn/neuxs/repository/maven-releases/</url>
+            <url>http://client.qjun.com.cn/nexus/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>snapshot</name>
-            <url>http://client.qjun.com.cn/neuxs/repository/maven-snapshots/</url>
+            <url>http://client.qjun.com.cn/nexus/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
